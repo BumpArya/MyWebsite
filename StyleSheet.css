@@ -1,0 +1,25 @@
+.Background{
+    display: flex;
+    flex-direction: column;
+
+    background-color: black;
+    align-items: center;
+}
+
+.Heading {
+    text-align: center;
+    color: white;
+}
+
+.Sections {
+    margin: 25px;
+
+    position: relative;
+    width: 1200px;
+
+    padding: 10px;
+    border : 2px solid crimson;
+
+    text-align: center;
+    color: white;
+}
