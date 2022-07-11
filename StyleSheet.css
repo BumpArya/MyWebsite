@@ -1,7 +1,4 @@
-.Background{
-    display: flex;
-    flex-direction: column;
-
+body{
     background-color: black;
     align-items: center;
 }
@@ -9,17 +6,36 @@
 .Heading {
     text-align: center;
     color: white;
+    margin: 50px;
 }
 
-.Sections {
-    margin: 25px;
+.SubHeading{
+    font-size: 25px;
+}
+
+div{
+    margin: 50px;
 
     position: relative;
-    width: 1200px;
 
     padding: 10px;
     border : 2px solid crimson;
 
     text-align: center;
     color: white;
+
+    font-size: 18px;
+}
+
+img{
+    margin: 5px;
+}
+
+a.link{
+    color: white;
+    text-decoration: none;
+}
+a.link:hover{
+    color: blue;
+    text-decoration: underline;
 }
